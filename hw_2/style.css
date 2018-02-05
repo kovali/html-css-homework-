@@ -20,7 +20,7 @@ body {
     height: auto;
 }
 
-.Alice {
+.alice {
     display: block;
     margin-left: 15%;
     margin-top: 5%;
@@ -36,7 +36,7 @@ h1 {
 
 }
 
-h2 {
+h2,h4 {
     font-size: 30px;
     color: #2F4F4F;
     margin-left: 10%;
@@ -123,10 +123,12 @@ progress {
     margin-left: 10%;
 }
 
-#right h1.radius {
+#right h3.radius {
+    font-size: 40px;
     background: #a3f8ff;
     color: #708090;
     padding: 10px;
+    margin-left: 60px;
     border-radius: 5px;
     display: inline;
     clear: both;
